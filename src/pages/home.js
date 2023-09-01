@@ -42,9 +42,24 @@ function Home() {
             culpa qui officia deserunt mollit anim id est laborum."
           </p>
           <span className="social-links">
-            <img src={Linkedin} className="social" alt="linkedin " />
-            <img src={Instagram} className="social" alt="instagram " />
-            <img src={Github} className="social" alt="github " />
+            <a
+              href="https://www.linkedin.com/in/ggoycoo"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img src={Linkedin} className="social" alt="linkedin" />
+            </a>
+            <a
+              href="https://www.instagram.com/sugoyco"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img src={Instagram} className="social" alt="instagram" />
+            </a>
+            <a
+              href="https://www.github.com/whoisgg"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img src={Github} className="social" alt="github" />
+            </a>
           </span>
         </div>
         <img

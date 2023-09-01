@@ -15,7 +15,7 @@ function App() {
           <div className="nav-link">
             <span className="nav-item">
               <NavLink to="/" className="list">
-                Home
+                About
               </NavLink>
             </span>
             <span className="nav-item">

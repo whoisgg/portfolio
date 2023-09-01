@@ -15,6 +15,7 @@ body {
   margin-top: 7rem;
   left: 38%;
   top: 50%;
+  height: 70vmin;
 }
 
 .card {
@@ -26,4 +27,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.logo-text {
+  color: white;
+  margin-top: 40vmin;
+}
+
+.card.logo1,
+.card.logo2 {
+  background-size: contain;
 }
