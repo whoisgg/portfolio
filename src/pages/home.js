@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import "../assets/home.css";
-import Arrow from "../assets/images/arrow.svg";
 import Linkedin from "../assets/images/linkedin.png";
 import Instagram from "../assets/images/instagram.png";
 import Github from "../assets/images/github.png";
