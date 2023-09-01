@@ -5,9 +5,10 @@
   z-index: 100;
   color: white;
   left: 50%;
-  transform: translateX(-50%); /* Horizontally center the navbar */
+  transform: translateX(-50%);
   margin-bottom: 4rem;
   padding: 10px 0;
+  font-weight: bold;
 }
 
 .nav-link {
@@ -19,7 +20,7 @@
 }
 
 .nav-link a:hover {
-  color: #00abf0;
+  color: #0a8caf;
 }
 
 .container-nav {
@@ -36,5 +37,5 @@
 }
 
 .nav-link .nav-item a.list.active {
-  color: #61dafb; /* Change color for the active link */
+  color: #0a8caf;
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import "../assets/home.css";
 
-function Courses() {
-  return <div>Courses</div>;
+function Work() {
+  return <div className="home-section">Work</div>;
 }
 
-export default Courses;
+export default Work;
