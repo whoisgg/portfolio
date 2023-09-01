@@ -31,12 +31,13 @@ function Home() {
         />
       </section>
       <section className="home-section" ref={sectionRef2}>
-        <div className="section-content">
-          <p className="text-md text-justify">
-            <span className="text-3xl">Hello World! </span>
-            I'm Gaspar Goycoolea, a passionate JavaScript developer. By day, I
-            navigate the intricacies of finance, strategically analyzing trends
-            and making data-driven decisions. As the sun sets, I transition from
+        <div className="section-content madjust">
+          <p className="sm:text-md  text-sm text-justify">
+            <span className="sm:text-3xl text-lg">Hello World! </span>
+            I'm Gaspar Goycoolea, a mostly self-taught developer who's found a
+            passion for crafting solutions using JavaScript. By day, I navigate
+            the intricacies of finance, strategically analyzing trends and
+            making data-driven decisions. As the sun sets, I transition from
             number crunching to crafting elegant lines of code. My journey began
             in the realm of video games, where I honed my problem-solving skills
             and embraced the thrill of virtual challenges. This passion
