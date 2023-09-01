@@ -6,7 +6,7 @@ import Logo2 from "../assets/images/logo2.png";
 import Logo3 from "../assets/images/logo3.png";
 import Logo4 from "../assets/images/logo4.png";
 import Logo5 from "../assets/images/logo5.jpeg";
-import { useSpring } from "react-spring";
+import { animated, useSpring } from "react-spring";
 import { useScroll } from "react-use-gesture";
 
 const logos = [Logo1, Logo2, Logo3, Logo4, Logo5];
@@ -103,16 +103,16 @@ function Experience() {
         const cardStyle = {
           ...style,
           backgroundImage: `url(${src})`,
-          backgroundSize: isLogo1 || isLogo2 ? "contain" : "cover", // Adjust background size
+          backgroundSize: isLogo1 || isLogo2 ? "contain" : "cover",
         };
 
         return (
-          <div
+          <animated.div // Use animated.div from react-spring
             key={index}
             className={`card ${isLogo1 || isLogo2 ? "bg-white" : ""}`}
             style={cardStyle}>
-            <div className="logo-text">{logoTextMap[src].text}</div>
-          </div>
+            <div className="logo-text card">{logoTextMap[src].text}</div>
+          </animated.div>
         );
       })}
     </div>
