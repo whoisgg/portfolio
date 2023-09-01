@@ -19,19 +19,17 @@ function Home() {
   return (
     <div className="home-container">
       <section className="home-section" ref={sectionRef1}>
-        <div className="section-content text-center">
+        <div className="section-content text-center madjust">
           <p className="sm:text-4xl text-3xl">const GG = 'Gaspar Goycoolea';</p>
           <p className="sm:text-9xl text-8xl">whoIs(GG);</p>
         </div>
-        <img
-          src={Arrow}
-          className="arrow"
-          alt="arrow "
-          onClick={() => scrollToSection(sectionRef2)}
-        />
+        <div class="arrow" onClick={() => scrollToSection(sectionRef2)}>
+          <span></span>
+          <span></span>
+        </div>
       </section>
       <section className="home-section" ref={sectionRef2}>
-        <div className="section-content madjust">
+        <div className="section-content">
           <p className="sm:text-md  text-sm text-justify">
             <span className="sm:text-3xl text-lg">Hello World! </span>
             I'm Gaspar Goycoolea, a mostly self-taught developer who's found a
@@ -74,12 +72,10 @@ function Home() {
             </a>
           </span>
         </div>
-        <img
-          src={Arrow}
-          className="arrow2"
-          alt="arrow2 "
-          onClick={() => scrollToSection(sectionRef1)}
-        />
+        <div class="arrow arrow2" onClick={() => scrollToSection(sectionRef1)}>
+          <span></span>
+          <span></span>
+        </div>
       </section>
     </div>
   );
