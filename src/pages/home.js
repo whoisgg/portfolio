@@ -32,14 +32,25 @@ function Home() {
       </section>
       <section className="home-section" ref={sectionRef2}>
         <div className="section-content">
-          <p className="text-xl text-justify">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
+          <p className="text-md text-justify">
+            <span className="text-3xl">Hello World! </span>
+            I'm Gaspar Goycoolea, a passionate JavaScript developer. By day, I
+            navigate the intricacies of finance, strategically analyzing trends
+            and making data-driven decisions. As the sun sets, I transition from
+            number crunching to crafting elegant lines of code. My journey began
+            in the realm of video games, where I honed my problem-solving skills
+            and embraced the thrill of virtual challenges. This passion
+            seamlessly evolved into coding, where I now channel that same
+            immersive focus to build innovative solutions. Fueled by my
+            background in finance, I approach coding with a unique blend of
+            analytical thinking and creative problem-solving. Each line of code
+            I write mirrors the strategic decisions I make during the day. From
+            balancing budgets to debugging algorithms, my world is a harmony of
+            numbers and syntax. In essence, I merge my financial expertise,
+            gaming roots, and coding enthusiasm into a dynamic and ever-evolving
+            journey. With each line of code, I embrace the thrill of exploration
+            and creation, bridging gaps between numbers, games, and the digital
+            frontier."
           </p>
           <span className="social-links">
             <a

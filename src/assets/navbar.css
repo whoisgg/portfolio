@@ -20,7 +20,7 @@
 }
 
 .nav-link a:hover {
-  color: #0a8caf;
+  color: #00abf0;
 }
 
 .container-nav {
@@ -37,5 +37,5 @@
 }
 
 .nav-link .nav-item a.list.active {
-  color: #0a8caf;
+  color: #00abf0;
 }
