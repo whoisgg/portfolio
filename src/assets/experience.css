@@ -53,3 +53,9 @@ body {
     max-width: 3000px; /* Increase max-width for larger screens */
   }
 }
+
+@media (min-width: 2763px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
